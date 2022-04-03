@@ -1,0 +1,17 @@
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.intro{
+    height: 100%;
+    background: #222;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.sectionPadding{
+    padding: 90px 0;
+}

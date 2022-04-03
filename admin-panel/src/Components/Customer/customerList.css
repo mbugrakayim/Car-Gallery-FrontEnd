@@ -1,0 +1,9 @@
+.customerList {
+  flex: 4;
+  padding: 20px;
+}
+.cListTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

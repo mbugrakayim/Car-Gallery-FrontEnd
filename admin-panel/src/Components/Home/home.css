@@ -1,0 +1,11 @@
+.home{
+    flex: 4;
+    margin-top: 15px;
+}
+.homeWidget{
+    display: flex;
+    margin: 20px;
+}
+.abc{
+    flex: 4;
+}

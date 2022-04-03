@@ -1,0 +1,50 @@
+.sidebar{
+    flex: 1;
+    background-color: #333333;
+    padding-top: 50rem;
+    margin-left: -25px;
+    position: sticky;
+   
+}
+.xIcon{
+    margin-right: 10px;
+    font-size:  25px !important;
+    color: #888;
+}
+.sCloseBtn{
+    padding: auto;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.sWrapper{
+    padding: 20px;
+    color: #888;
+}
+.sMenu{
+    margin-bottom: 10px;
+}
+.sTitle{
+    font-size: 14px;
+    color: #873e0b
+}
+.sList{
+    list-style: none;
+    padding: 5px;
+}
+.sListItem{
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.sListItem.active , .sListItem:hover{
+    background-color: rgb(228,228,250);
+}
+.Icon{
+    margin-right: 10px;
+    font-size:  25px !important;
+}

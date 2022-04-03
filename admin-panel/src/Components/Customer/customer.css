@@ -1,0 +1,130 @@
+.customer {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .customerTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .customerAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .customerTop {
+    display: flex;
+  }
+  
+  .customerTopLeft,
+  .customerTopRight {
+    flex: 1;
+  }
+  
+  .customerTopRight {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .customerInfoImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .customerInfoTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .customerName {
+    font-weight: 600;
+  }
+  
+  .customerInfoBottom {
+    margin-top: 10px;
+  }
+  
+  .customerInfoItem {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .customerInfoValue {
+    font-weight: 300;
+  }
+  
+  .customerBottom {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .customerForm {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .customerFormLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .customerFormLeft > label {
+    margin-bottom: 10px;
+    color: gray;
+  }
+  
+  .customerFormLeft > input {
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .customerFormLeft >select{
+    margin-bottom: 10px;
+  }
+  
+  .customerUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .customerFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .customerUpload{
+    display: flex;
+    align-items: center;
+  }
+  
+  .customerButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+  }

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Levibrush";
+    src: url("LEVIBRUSH.TTF");
+}
+.logo {
+    font-family: Levibrush, sans-serif;
+    font-weight: normal;
+    font-size: 3em;
+    position: relative;
+    padding: 5px;
+}
+.logo:after{
+    position: absolute;
+    inset: 0;
+    content: "";
+    background: linear-gradient(to right, #fec200 0%, #873e0b 100%);
+    mix-blend-mode: overlay;
+}
+
+
+
+li {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 15px;
+    list-style-type: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    color: #777;
+}

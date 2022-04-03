@@ -1,0 +1,43 @@
+.customer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  }
+  
+  .addCustomerForm {
+    margin-top: 10px;
+  }
+  
+  .addCustomerItem {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .addCustomerItem > label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .addCustomerItem > input {
+    padding: 10px;
+  }
+  
+  .addCustomerItem > select {
+    padding: 10px;
+  }
+  
+  .addCustomerButton {
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
